@@ -13,7 +13,7 @@ function App() {
   function plus(e) { 
     e.preventDefault(); 
     setResult((result) => result + Number(inputRef.current.value)); 
-    inputRef.current.value=null;
+    
   }; 
  
   function minus(e) { 
